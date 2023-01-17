@@ -1,0 +1,21 @@
+#include<iostream>  
+using namespace std; 
+
+int add(int x, int y)
+ {
+ 	return (x+y);
+ }
+  
+int main()  
+{  
+   int x, y, sum;
+   cout<< "Enter first number: ";
+   cin>> x;
+   cout<< "Enter second number: ";
+ cin>>y;
+ 
+   sum = add(x,y);
+  cout<< "Sum of the  numbers is :  " <<sum<< endl;
+   return 0;
+}
+
