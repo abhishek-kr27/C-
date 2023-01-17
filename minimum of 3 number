@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int a,b,c;
+	cout<<" Enter the  First number : ";
+	cin>>a;
+	cout<<" Enter the Second number : ";
+	cin>>b;
+	cout<<" Enter the Third number : ";
+	cin>>c;
+	
+	if(a<b&&a<c) {
+		cout<<" First number is minimum whick is= "<<a;
+	} else if(b<a&&b<c) {
+		cout<<" Second number is minimum whick is= "<<b;
+	} else {
+		cout<<" Third number is minimum whick is= "<<c;
+	}
+	return 0;
+}
